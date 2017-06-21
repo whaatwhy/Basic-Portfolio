@@ -4,14 +4,36 @@ p {
 }
 title {
 	background-color: green;
+	font-size: 100px;
 
 }
 
 body {
+	background: ;
+	width: 100%;
+}
 
+h1 {
+	float: left;
 }
 
 header {
 	background-color: #4aaaa5;
+	border: #cccccc;
 	margin: 20%;
+	float: left;
+	font-size: 50px;
+
+}
+
+navigation-bar {
+	float: inline;
+	color: #4aaaa5;
+}
+footer {
+	background color: #666666;
+}
+
+nav {
+	float: right;
 }
