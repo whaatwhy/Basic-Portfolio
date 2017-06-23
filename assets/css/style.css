@@ -1,5 +1,5 @@
 * {
-	font-family: 'georgia', 'Times', 'Times New Roman', serif;
+	font-family: 'Georgia', 'Times', "Times New Roman", serif;
 }
 body {
 	width: 100%;
@@ -21,20 +21,20 @@ nav {
 	margin-right: 32px;
 }
 header h3 {
+	float: left;
 	width: 250px;
 	text-align: center;
 	line-height: 70px;
 	background-color: #4aaaa5;
 	font-size: 35px;
 	color: white;
-	float: left;
 }
 nav, ul, li {
 	display: inline-block;
 	word-spacing: 2px;
 }
 main {
-	width: 960px;
+	width: 650px;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -50,10 +50,17 @@ article {
 	margin: 30px;
 	padding: 20px;
 	background-color: #eee;
+	line-height: 16px;
+}
+p.small {
+	line-height: 10px;
+}
+p.big {
+	line-height: 30px;
 }
 aside {
-	float: left;
-	width: 25%;
+	float: right;
+	width: 270px;
 	margin: 30px;
 	padding: 20px;
 	background-color: #eee;
